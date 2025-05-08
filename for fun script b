@@ -1,0 +1,14 @@
+$("nav > a").hide(500).show(500)
+
+$("nav > a").mouseover(function(){
+    $(e.target).fadeIn(500).fadeOut(500).fadeIn(500);
+})
+
+$(button).mouseover(function(){
+
+    $(button).css("backgroundColor","limegreen")
+    $(button).slideup(500).slidedown()
+})
+.mouseout(function() {
+    $(button).css("backgroundColor","red")
+})
