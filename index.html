@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Casita Sedona</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styles/casita.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<!-- wrapper -->
+<div id="wrapper">
+	<!-- header section -->
+  <header>
+      <h1>Casi Cielo villa </h1>
+  </header>
+  <!-- navigation section -->
+  <nav>
+  <ul> 
+    <li><a href="index.html">Home</a></li>
+	<li><a href="rooms/oceanview.html">Oceanview Room</a></li>
+	<li><a href="rooms/adventure.html">Adventure Room</a></li>
+	<li><a href="events/weekend.html">Weekend Events</a></li>
+	<li><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+  <!-- main content section -->
+ <main>
+ <div id="homehero">
+</div>
+<p id="greeting"></p> <!-- Greeting displayed here -->
+   <script src="script.js" defer></script>
+ <h2>Casi Cielo meaning</h2>
+ <p>Casi Cielo means "almost heaven" in spanish dipicting the house unmatched view of the coast and its heavenly estate that will make you feel like royalty.</p>
+ <p>Calming and charming the Casi Cielo is the best place to relax, and enjoy the fresh breeze and warm humidity of its unforgettable scenery that is usually described by our guests as a work of art.</p>
+ 
+ 
+  
+  <img src="images/outside.jpg" alt="Villa Scenery" width="400" height="200">
+  
+  <div> <h2> Book A Room Now </h2>
+  <label for="name">Name: </label>
+			<input type="text" id="name" />
+			<label for="email">E-mail: </label>
+			<input type="email" id="email" />
+			<label for="room"> select room:</label>
+			<select id ="room">
+			<option value="Oceanview">Oceanview ($350-450)</option>
+			<option value ="adventure">adventure ($250-350)</option></select>
+			<label for="date">Book date:</label>
+			<input type="date" id="date"/>
+			<button onclick="handleBooking()">Book room</button>
+			<div id="result"></div>
+			<script src="booking.js" defer></script>
+			<script src="main.js" defer></script>
+			
+  
+  
+  </div>
+  <!-- contact information -->
+		<div>
+			12010 Garrett Bay Road<br>
+			Ellison Bay, tx 54210<br>
+			<!-- phone number (mobile) -->
+			<a id="mobile" href="tel:888-555-5555">555-555-5555</a><br><br>
+			<!-- phone number (desktop) -->
+			<span id="desktop">888-555-5555</span><br><br>
+		</div>
+  </main>
+  <!-- footer section -->
+  <footer>
+  Copyright &copy; 2024 WebMaster
+  </footer>
+</div>
+</body>
+</html>
